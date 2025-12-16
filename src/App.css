@@ -1,0 +1,39 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.table th {
+  background-color: #f8f9fa;
+}
+
+.alert {
+  border-radius: 8px;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+.form-control, .form-select {
+  border-radius: 6px;
+}
